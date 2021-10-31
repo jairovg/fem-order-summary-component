@@ -1,0 +1,31 @@
+{
+  "name": "fem-order-summary-component",
+  "version": "1.0.0",
+  "description": "Order summary component challenge hub",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass styles/index.scss dist/index.css",
+    "serve": "serve",
+    "start": "nodemon -e scss,html --watch index.html --watch ./styles --exec \"npm run build\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jairovg/fem-order-summary-component.git"
+  },
+  "keywords": [
+    "order",
+    "summary",
+    "component"
+  ],
+  "author": "jairovg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jairovg/fem-order-summary-component/issues"
+  },
+  "homepage": "https://github.com/jairovg/fem-order-summary-component#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.14",
+    "sass": "^1.43.4",
+    "serve": "^12.0.1"
+  }
+}
